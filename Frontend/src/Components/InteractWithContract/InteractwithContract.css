@@ -1,0 +1,51 @@
+.InteractWithContract{
+    height: 500px;
+    margin: 20px 50px;
+    padding: 20px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.params-outline{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    height: 100px;
+}
+
+.info{
+    display: grid;
+    justify-content: space-between;
+    height: 100px;
+}
+.space {
+    padding-bottom: 80px; /* adds margin above the div */
+    
+
+  }
+
+
+.info li{
+    margin: 20px;
+}
+
+.deploy-btn {
+    margin: 30px;
+}
+
+.label,.winner, .info-status{
+    color:#4c86de;
+}
+
+.infoStat{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-status{
+    margin: 0px 20px 20px 20px ;
+}
+
+

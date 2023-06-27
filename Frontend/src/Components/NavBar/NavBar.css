@@ -1,0 +1,48 @@
+a, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    font-size: 30px;
+    color: #ecf0f1;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover, button:hover {
+    color: #4c86de;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.NavBar{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    margin: 50px 90px 0px 50px;  
+    
+  
+}
+
+.nav-items {
+    display: flex;
+    width: 1600px;
+    justify-content: space-between;
+    font-weight: 80px;
+  
+}
+
+li {
+    display: inline-block;
+    justify-content: space-between;
+    
+   
+}
+
+
+
+
+
+
+
+

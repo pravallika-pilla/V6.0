@@ -1,0 +1,37 @@
+.Status{
+    height: 100px;
+    margin: 0px 50px;
+    color: whitesmoke;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.scroll-container {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  .info1 {
+    display: inline-block;
+    animation: scrollAnimation 25s infinite linear;
+  }
+  
+  .info1 li {
+    margin-right: 20px;
+    font-size: 40px;
+  }
+  
+  @keyframes scrollAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

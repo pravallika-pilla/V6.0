@@ -1,0 +1,30 @@
+{
+  "name": "dutchauction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.16.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "alchemy-sdk": "^2.9.1",
+    "dotenv": "^16.3.1",
+    "ganache-cli": "^6.12.2",
+    "react": "^16.14.0",
+    "react-youtube": "^10.1.0",
+    "solidity-coverage": "^0.8.2",
+    "web3modal": "^1.9.12"
+  }
+}
